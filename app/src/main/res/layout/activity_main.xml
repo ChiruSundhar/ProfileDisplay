@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageButton
+            android:id="@+id/contactbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+
+            android:src="@drawable/contact" />
+
+        <ImageButton
+            android:id="@+id/employbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/employee" />
+
+        <ImageButton
+            android:id="@+id/docbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/doc" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:overScrollMode="never"
+
+        />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

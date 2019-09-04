@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Profile Display</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="employee_details">Employee Details</string>
+    <string name="document_details">Document Details</string>
+    <string name="full_name">Full Name:</string>
+    <string name="email">Email:</string>
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="password">Password:</string>
+    <string name="gender">Gender:</string>
+    <string name="martial_status">Martial Status:</string>
+    <string name="d_o_b">D.O.B:</string>
+    <string name="permanent_address">Permanent Address:</string>
+    <string name="permanent_state">Permanent State:</string>
+    <string name="permanent_city">Permanent City:</string>
+    <string name="permanent_pincode">Permanent Pincode:</string>
+    <string name="current_address">Current Address:</string>
+    <string name="current_state">Current State:</string>
+    <string name="current_city">Current City:</string>
+    <string name="current_pincode">Current Pincode</string>
+    <string name="adhaar_number">Adhaar Number:</string>
+    <string name="existing_loans">Existing Loans:</string>
+    <string name="pan_number">Pan Number:</string>
+    <string name="employee_code">Employee Code:</string>
+    <string name="occupation">Occupation</string>
+    <string name="employement_type">Employement Type:</string>
+    <string name="current_company_experiance">Current Company Experiance:</string>
+    <string name="total_experiance">Total Experiance:</string>
+    <string name="monthly_income">Monthly Income:</string>
+    <string name="company_name">Company Name:</string>
+    <string name="company_website">Company Website:</string>
+    <string name="company_address">Company Address:</string>
+    <string name="annual_turn_over">Annual Turn Over:</string>
+    <string name="employee_details_heading">EMPLOYEE DETAILS</string>
+    <string name="contact_details_heading">CONTACT DETAILS</string>
+    <string name="document_details_heading">DOCUMENT DETAILS</string>
+    <string name="preview">Preview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo">Photo:</string>
+    <string name="identity_proof">Identity Proof:</string>
+    <string name="bank_statement">Bank Statement:</string>
+    <string name="salary_slip">Salary Slip:</string>
+    <string name="property_document">Property Document:</string>
+</resources>

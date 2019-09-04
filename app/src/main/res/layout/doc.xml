@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/document_details_heading"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photo"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/photo_image"
+            android:layout_gravity="center"
+            android:src="@drawable/photo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/identity_proof"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/identity_image"
+            android:layout_gravity="center"
+            android:src="@drawable/identity"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bank_statement"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/bank_image"
+            android:layout_gravity="center"
+            android:src="@drawable/bank"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salary_slip"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/salary_image"
+            android:layout_gravity="center"
+            android:src="@drawable/payslip"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/property_document"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/property_image"
+            android:layout_gravity="center"
+            android:src="@drawable/property"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+
+    </LinearLayout>
+</LinearLayout>
